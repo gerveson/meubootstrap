@@ -1,0 +1,122 @@
+*{
+    padding:0;
+    margin:0;
+    border:0;
+}
+
+nav ul li{
+padding-left: 10px;
+padding-right: 10px;
+}
+.navbar-expand-md{
+    padding:0;
+}
+.navbar-nav li{
+    padding:0;
+}
+.navbar-nav li a{
+    padding:25px;
+}
+.navbar-nav li a:hover{
+    background-color: rgba(0, 0, 0, 0.123);
+}
+.listnav{
+    padding-top:100px;
+    background-color: #F44336;
+}
+.listnav{
+    font-size:20px;
+}
+.listnav a{
+    text-decoration:none;
+    color:#FBC4C0;
+    font-size:20px;
+}
+.listnav .active{
+    color:white;
+    font-size:20px;
+}
+.noticias .row{
+    margin:0;
+}
+
+
+
+
+
+main{
+    background-color: rgb(238, 238, 238);
+    height: 500px;
+}
+.noticias{
+    padding: 100px 0 100px 0;
+}
+.noticias .lista{
+    padding-bottom: 50px;
+}
+.noticias .card-title{
+    color:red;
+    font-size:larger;
+}
+.infolist{
+    padding:50px 0 0 0;
+}
+.noticias .info{
+    display: inline-block;
+    padding: 8px 15px;
+    border-radius: 8px;
+    color: #000000;
+    text-decoration: none;
+}
+.noticias .row{
+    padding:50px 0 0 0;
+}
+.btn-group-vertical{
+    box-shadow: 0 0 1px 0 #000000;
+    width: 100%;
+}
+.btn-group-vertical a{
+    width: 100%;
+}
+.btn-group-vertical a:hover{
+    background-color:#0000003d;
+}
+.btn-group-vertical .btn{
+    color:#E53935;
+}
+
+
+.container{
+    padding:100px;
+    min-height: 1000px;
+}
+
+.cadCv{
+    padding:50px;
+}
+.alert{
+    font-size: small;
+}
+.cadastrar button{
+    padding:10px;
+}
+
+
+
+
+footer{
+    padding:50px 0 0 0;
+    background-color: #E53935;
+}
+footer .container-fluid a{
+    color:white;
+    text-decoration: none;
+}
+footer .container-fluid ul{
+    list-style:none;
+    padding: 0 4px 0 0;
+}
+.end{
+    padding: 10px 0 10px 0;
+    background-color: #D73935;
+}
