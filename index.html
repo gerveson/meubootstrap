@@ -4,39 +4,212 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <title>Site Bootstrap</title>
+    <link rel="stylesheet" href="style1.css">
+    <title>Site bnu</title>
 </head>
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 col-md-4 bg-warning">coluna1</div>
-            <div class="col-sm-12 col-md-4 bg-danger">coluna2</div>
-            <div class="col-sm-12 col-md-4 bg-info">coluna3</div>
+    <div class="navegacao">
+        <nav class="navbar navbar-expand-md fixed-top" style="background-color: #FFCDD2;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="https://bnuonline.com.br/img/logo.png" alt="Logo" width="180" height="70"
+                        class="d-inline-block align-text-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#navbarOffcanvasMd" aria-controls="navbarOffcanvasMd"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvasMd"
+                    aria-labelledby="navbarOffcanvasMdLabel">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Empregos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Currículos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Classificados</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <main>
+        <div class="destaques">
+            <div class="container text-center pt-5">
+
+                <div class="row justify-content-evenly lista">
+                    <div class="col-3 text-center cubo" style="background-color: blue">
+                        <a href="">
+                            <h1>101</h1>
+                            <h3>vagas de emprego</h3>
+                        </a>
+                    </div>
+                    <div class="col-3 text-center cubo" style="background-color: brown">
+                        <a href="">
+                            <h1>11</h1>
+                            <h3>currículos</h3>
+                        </a>
+                    </div>
+                    <div class="col-3 text-center cubo" style="background-color: green">
+                        <a href="">
+                            <h1>1</h1>
+                            <h3>classificados</h3>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="row justify-content-evenly lista2">
+                    <div class="col-3 text-center" style="background-color: blue">
+                        <a href="">
+                            <h6>VER VAGAS</h6>
+                        </a>
+                    </div>
+                    <div class="col-3 text-center" style="background-color: brown">
+                        <a href="">
+                            <h6>VER CURRÍCULOS</h6>
+                        </a>
+                    </div>
+                    <div class="col-3 text-center" style="background-color: green">
+                        <a href="">
+                            <h6>VER CLASSIFICADOS</h6>
+                        </a>
+                    </div>
+                </div>
+                <div class="row justify-content-evenly lista2">
+                    <div class="col-3 text-center" style="background-color: coral">
+                        <a href="">
+                            <h6>CADASTRAR VAGA DESTAQUE</h6>
+                        </a>
+                    </div>
+                    <div class="col-3 text-center" style="background-color: coral">
+                        <a href="">
+                            <h6>CADASTRAR CURRÍCULO</h6>
+                        </a>
+                    </div>
+                    <div class="col-3 text-center" style="background-color: coral">
+                        <a href="">
+                            <h6>CADASTRAR CLASSIFICADO</h6>
+                        </a>
+                    </div>
+                </div>
+                <div class="row justify-content-evenly lista2">
+                    <div class="col-3 text-center" style="background-color: green">
+                        <a href="">
+                            <h6>CADASTRAR VAGA GRÁTIS</h6>
+                        </a>
+                    </div>
+                    <div class="col-3 text-center" style="background-color: green">
+                        <a href="">
+                            <h6>CADASTRAR CURRÍCULO</h6>
+                        </a>
+                    </div>
+                    <div class="col-3 text-center" style="background-color: green">
+                        <a href="">
+                            <h6>CADASTRAR CLASSIFICADO</h6>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <!-- linha 2 -->
-        <div class="row">
-            <div class="col-sm-6 col-md-3 bg-info">Linha 2 esq</div>
-            <div class="col-sm-6 col-md-3 bg-danger">Linha 2 dir</div>
-            <div class="col-sm-12 col-md-3 bg-primary">Linha 2</div>
-            <div class="col-sm-12 col-md-3 bg-dark">Linha 2</div>
+    </main>
+
+    <aside>
+        <div class="noticias">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-4 g-4 pt-5">
+                    <div class="col">
+                        <h5 class="card-title badge" style="background-color: aquamarine">Notícias</h5>
+                        <div class="card">
+                            <img src="https://bnuonline.com.br/crop/220x150/1.46x1/upload/variedades/1696530626/blumenau_enchente.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Enchente em Blumenau: Rio Itajaí-Açu deve atingir 9,5 metros, diz
+                                    AlertaBlu</p>
+                            </div>
+                            <a href="#" class="btn btn-light" style="background-color:beige;">LER</a>                            
+                        </div>
+                    </div>
+                    <div class="col">
+                        <h5 class="card-title badge" style="background-color: yellow">Eventos</h5>
+                        <div class="card">
+                            <img src="https://bnuonline.com.br/crop/220x150/1.46x1/upload/variedades/1696256999/download_5.png"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">4ª Temporada de Exposições do MAB – Ano 2023</p>
+                            </div>
+                            <a href="#" class="btn btn-light" style="background-color:beige;">LER</a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <h5 class="card-title badge" style="background-color: green">Diversos</h5>
+                        <div class="card">
+                            <img src="https://bnuonline.com.br/crop/220x150/1.46x1/upload/variedades/1696261619/1f6f06bc6e30df75880e81286e945b53.jpeg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Praça do Empreendedor implementa atendimento automatizado on-line
+                                </p>
+                            </div>
+                            <a href="#" class="btn btn-light" style="background-color:beige;">LER</a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <h5 class="card-title badge" style="background-color: blue">Oktoberfest</h5>
+                        <div class="card">
+                            <img src="https://bnuonline.com.br/crop/220x150/1.46x1/upload/variedades/1696548591/27_46_primeira_noite_de_oktoberfest_e_maior_dos_ultimos_10_anos_confira_os_numeros_whatsapp_image_2019_10_10_at_09.jpeg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">URGENTE - Após fortes chuvas, 38º Oktoberfest Blumenau será
+                                    suspensa temporariamente</p>
+                            </div>
+                            <a href="#" class="btn btn-light" style="background-color:beige;">LER</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <footer>
+
+        <div class="container-fluid">
+            <div class="row text-center">
+                <div class="col-md-4 col-sm-12">
+                    <h5>Blumenau Online</h5>
+                    <h6>Um Portal de Oportunidades.</h6>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <h5>Anuncie conosco</h5>
+                    <a href="mailto:fgerveson@gmail.com">fgerveson@gmail.com</a>
+                </div>
+                <div class="col-md-4 col-sm-12 text-left">
+                    <h5>Veja também:</h5>
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">EMPREGOS</a></li>
+                        <li><a href="#">CURRÍCULOS</a></li>
+                        <li><a href="#">CLASSIFICADOS</a></li>
+                        <li><a href="#">BLOG</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center end">
+                    &#169;2023 Blumenau Online | Todos os direitos reservados.
+                </div>
+            </div>
         </div>
 
-        <!-- linha 3 -->
-        <div class="row">
-            <div class="col-sm-12 col-md-1 bg-danger">COLUNA</div>
-            <div class="col-sm-12 col-md-1 bg-dark">COLUNA</div>
-            <div class="col-sm-12 col-md-1 bg-info">COLUNA</div>
-            <div class="col-sm-12 col-md-1 bg-warning">COLUNA</div>
-            <div class="col-sm-12 col-md-1 bg-dark">COLUNA</div>
-            <div class="col-sm-12 col-md-1 bg-primary">COLUNA</div>
-            <div class="col-sm-12 col-md-1 bg-danger">COLUNA</div>
-            <div class="col-sm-12 col-md-1 bg-info">COLUNA</div>
-            <div class="col-sm-12 col-md-1 bg-dark">COLUNA</div>
-            <div class="col-sm-12 col-md-1 bg-warning">COLUNA</div>
-            <div class="col-sm-12 col-md-1 bg-primary">COLUNA</div>
-            <div class="col-sm-12 col-md-1 bg-info">COLUNA</div>
-        </div>
-    </div>
-    <script src="js/bootstrap.min.js"></script>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
-</html> 
+</html>
